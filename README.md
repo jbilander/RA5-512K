@@ -4,7 +4,7 @@ A remake of the RA5-512K expansion memory for the Amiga 500 made in diptrace
 This is a replica of the original RA5-512K expansion memory for the A500. Two small changes/improvements has been made to this pcb.
 
 * Increased the pitch for the battery pins to 20 mm to accomodate for a coin cell battery holder (e.g. CR2032). Moved C2 somewhat to the right.
-* Added pads for Y1 to be able to use either a surface mount MC-306 crystal or a cylinder shaped one. A crystal is needed when using an old OKI M6242B RTC chip.
+* Added pads for Y1 to be able to use either a surface mount MC-306 crystal or a cylinder shaped one. A clock crystal is needed when using an old OKI M6242B RTC chip.
 
 <a href="images/RA5-512k_pic1.jpg">
 <img src="images/RA5-512k_pic1.jpg" width="372" height="250">
