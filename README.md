@@ -36,7 +36,7 @@ This is how the end result looks like after populating this board:
 </a>
 
 ***
-BOM RA5-512
+BOM RA5-512K
 
 * BAT: Any cheap Battery Holder for CR2032 (Two pin 20 mm pitch) or one 3.6V NiCd rechargeable barrel battery (two pin 20 mm pitch).
 
