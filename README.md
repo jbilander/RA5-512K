@@ -15,7 +15,7 @@ This is a replica of the original RA5-512K expansion memory for the A500. Two sm
 
 Why making this replica?
 
-* To save/reuse components from a battery damaged/corroded A501 pcb with four (256k x 4 bit) dram chips and an OKI M6242B RTC and transplant them into a new pcb.
+* To save/reuse components from a battery damaged/corroded A501 pcb with four (256k x 4 bit) dram chips and an OKI M6242B RTC and transplant them into a new pcb. That is if the pcb is damaged beyond rescuing, otherwise look <a href="https://github.com/jbilander/HowTos/wiki/How-to-fix-and-use-a-3V-lithium-coin-cell-battery-with-an-old-A501-Amiga-expansion-memory">here</a>
 * Preserving a bit of history.
 * For testing out diptrace.
 
