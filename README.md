@@ -135,7 +135,7 @@ When using a non-rechargeable lithium battery it is important to stop the re-cha
 
 ***
 
-Populating the RTC socket with a 62421A chip which has a built-in crystal we don't populate Y1. Adding the dram chips and och 3V lithium coin cell (CR2032) we can measure if we got any voltage on the RTC. And we sure do, the small voltage drop is normal due to the use of the diod.
+Populating the RTC socket with a 62421A chip which has a built-in crystal we don't populate Y1. Adding the dram chips and och 3V lithium coin cell (CR2032) we can measure if we get any potential on the RTC. And we sure do, the small voltage drop is normal due to the use of the diod.
 
 <a href="images/RA5-512k_pic21.jpg">
 <img src="images/RA5-512k_pic21.jpg" width="202" height="151">
@@ -152,7 +152,7 @@ Populating the RTC socket with a 62421A chip which has a built-in crystal we don
 
 ***
 
-Time to try this one in a real Amiga 500 now, this A500 motherboard is a Rev.6A with the JP2 and JP7A modded so if this expansion memory works it will show up as chip ram...and voila!, we can see we got 1 MB in total. Let's run some tests and check the RTC voltage level with the machine on. We can see the chip ram works, the RTC ticks and the voltage level is nice at just above 5V.
+Time to try this one in a real Amiga 500 now, this A500 motherboard is a Rev.6A with the JP2 and JP7A modded so if this expansion memory works it will show up as chip ram...and voila!, we can see we got 1 MB in total. Let's run some tests and check the RTC voltage level with the machine turned on. We can see the chip ram works, the RTC ticks and the voltage level is nice at just above 5V.
 
 <a href="images/RA5-512k_pic25.jpg">
 <img src="images/RA5-512k_pic25.jpg" width="202" height="151">
