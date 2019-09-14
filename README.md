@@ -36,7 +36,36 @@ This is how the end result looks like after populating this board:
 </a>
 
 ***
-TODO: Insert BOM here
+BOM RA5-512
+
+* BAT: Any cheap Battery Holder for CR2032 (Two pin 20 mm pitch) or one 3.6V NiCd rechargeable barrel battery (two pin 20 mm pitch).
+
+* J1: 1 x 56pin (2×28) 2.54mm double row right-angle header (or 2x40pin and cut it with a hacksaw)
+
+* U1-U4: 4 pcs MCM514256AP70 Integrated Circuit DIP-20 DRAM, 256Kx4, 70ns, CMOS or equivalent e.g. MB81C4256A-70P
+* 4 pcs DIP-20 socket (optional)
+
+* U5: OKI M6242B RTC or RTC 62421A
+* 1 pcs DIP-18 socket (optional)
+* Y1: Clock Crystal 32.768kHz, cylinder shaped Ø2x6mm or surface mounted MC-306 32.768kHz clock crystal
+,populate only if using chip OKI M6242B or similar chip without built-in crystal
+
+Metal Film Through Hole Resistors
+* R1: 10k Ohm 
+* R2: 470 Ohm
+* R3: 47 Ohm
+* R4: 470 Ohm or with non-rechargeable Lithium Coin cell replace with diod 1N4148 / 1N914 - Small Signal Switching Diode, DO-35 glass, 100 V, Anode connected to the battery positive terminal.
+
+* RP1, RP2, RP3: 8-pin isolated Fixed Resistor Network. A single in line (SIL) resistor package with 4 individual, 47 ohm resistors.
+e.g. 4608X-102-470LF - Fixed Resistor Network 47 Ohm ± 2 %, Bourns
+
+* D1, D2: 1N4148 or 1N914 - Small Signal Switching Through Hole Diode, DO-35 glass, 100 V
+
+* C1, C10, C11, C12: Radial Electrolytic Capacitor 22uF 16V (or higher V)
+* C2, C5, C6, C7, C8, C9: 104 ( 0.1uF = 100nF ) Ceramic Decoupling Capacitor
+* C3, C4: Ceramic Disc Capacitor 20pF 50V
+
+* JP1: 1 x 2 pin 2.54mm header 
 
 JP1 is for enabling/disabling the EXRAM line.
 ***
