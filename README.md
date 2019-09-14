@@ -20,9 +20,48 @@ Why making this replica?
 * For testing out diptrace.
 
 
+Sending off gerbers to the Aisler boardhouse and received three good looking boards.
+* https://aisler.net/p/OHZYVCCU
 
+***
 
+<a href="images/RA5-512k_pic3.jpg">
+<img src="images/RA5-512k_pic3.jpg" width="202" height="151">
+</a>
 
+This is how the end result looks like after popualting this board:
 
- 
+<a href="images/RA5-512k_pic4.jpg">
+<img src="images/RA5-512k_pic4.jpg" width="202" height="151">
+</a>
 
+***
+TODO: Insert BOM here
+***
+
+This is how the original battery damaged/corroded board looked like. The NiCd battery had leaked and the Cadmium has eaten a large chunk of the copper. I desolder all the components to reveal all the traces for reverse engineering to take place.
+
+<a href="images/RA5-512k_pic5.jpg">
+<img src="images/RA5-512k_pic5.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic6.jpg">
+<img src="images/RA5-512k_pic6.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic7.jpg">
+<img src="images/RA5-512k_pic7.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic8.jpg">
+<img src="images/RA5-512k_pic8.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic9.jpg">
+<img src="images/RA5-512k_pic9.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic10.jpg">
+<img src="images/RA5-512k_pic10.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic11.jpg">
+<img src="images/RA5-512k_pic11.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic12.jpg">
+<img src="images/RA5-512k_pic12.jpg" width="202" height="151">
+</a>
