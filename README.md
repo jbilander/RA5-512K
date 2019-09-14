@@ -101,7 +101,7 @@ This is how the original battery damaged/corroded board looked like. The NiCd ba
 
 Choosing a suitable battery holder:
 
-Many different coin cell battery holders can be used for this pcb as long as they have 20 mm pin pitch. Do the soldering of the battery holder last or at least after you have populated R4 (with a resistor or a diod) as it might be in the way for the battery holder to be flush against the pcb. You may have to leave some room in between. Some battery holders have plastic standoffs/legs built into the design. See pictures below:
+Many different coin cell battery holders can be used for this pcb as long as they have 20 mm pin pitch. Do the soldering of the battery holder as a last step or at least after you have populated R4 (with a resistor or a diod) as it might be in the way for the battery holder to be flush against the pcb. You may have to leave some room in between. Some battery holders have plastic standoffs/legs built into the design. See pictures below:
 
 <a href="images/RA5-512k_pic13.jpg">
 <img src="images/RA5-512k_pic13.jpg" width="202" height="151">
