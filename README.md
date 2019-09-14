@@ -20,7 +20,7 @@ Why making this replica?
 * For testing out diptrace.
 
 
-Sending off gerbers to the Aisler boardhouse and received three good looking boards.
+Sending off gerbers to the Aisler boardhouse and received back three good looking boards after a week or so.
 * https://aisler.net/p/OHZYVCCU
 
 ***
