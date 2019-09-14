@@ -87,4 +87,93 @@ Many different coin cell battery holders can be used for this pcb as long as the
 
 ***
 
-When using a non-rechargeable lithium battery it is important to stop the re-charging current to flow to the battery. This can be done by using a diod at R4 with the anode facing the positive terminal, see BOM for details of what to use here.
+When using a non-rechargeable lithium battery it is important to stop the re-charging current to flow to the battery. This can be done by using a diod at R4 with the anode facing the positive terminal, see picture below and BOM for details of what to use here.
+
+<a href="images/RA5-512k_pic17.jpg">
+<img src="images/RA5-512k_pic17.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic18.jpg">
+<img src="images/RA5-512k_pic18.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic19.jpg">
+<img src="images/RA5-512k_pic19.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic20.jpg">
+<img src="images/RA5-512k_pic20.jpg" width="202" height="151">
+</a>
+
+***
+
+Populating the RTC socket with a 62421A chip which has a built-in crystal we don't populate Y1. Adding the dram chips and och 3V lithium coin cell (CR2032) we can measure if we got any voltage on the RTC. And we sure do, the small voltage drop is normal due to the use of the diod.
+
+<a href="images/RA5-512k_pic21.jpg">
+<img src="images/RA5-512k_pic21.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic22.jpg">
+<img src="images/RA5-512k_pic22.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic23.jpg">
+<img src="images/RA5-512k_pic23.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic24.jpg">
+<img src="images/RA5-512k_pic24.jpg" width="202" height="151">
+</a>
+
+***
+
+Time to try this one in a real Amiga 500 now, this A500 motherboard is a Rev.6A with the JP2 and JP7A modded so if this expansion memory works it will show up as chip ram...and voila!, we can see we got 1 MB in total. Let's run some tests and check the RTC voltage level with the machine on. We can see the chip ram works, the RTC ticks and the voltage level is nice at just above 5V.
+
+<a href="images/RA5-512k_pic25.jpg">
+<img src="images/RA5-512k_pic25.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic26.jpg">
+<img src="images/RA5-512k_pic26.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic27.jpg">
+<img src="images/RA5-512k_pic27.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic28.jpg">
+<img src="images/RA5-512k_pic28.jpg" width="202" height="151">
+</a>
+
+***
+
+Now let's try with the OKI M6242B RTC. First without adding a crystal to Y1 :) As expected the clock doesn't tick.
+
+<a href="images/RA5-512k_pic29.jpg">
+<img src="images/RA5-512k_pic29.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic30.jpg">
+<img src="images/RA5-512k_pic30.jpg" width="202" height="151">
+</a>
+
+So, let's solder on a crystal and try again. Now it ticks along...
+
+<a href="images/RA5-512k_pic31.jpg">
+<img src="images/RA5-512k_pic31.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic32.jpg">
+<img src="images/RA5-512k_pic32.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic33.jpg">
+<img src="images/RA5-512k_pic33.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic34.jpg">
+<img src="images/RA5-512k_pic34.jpg" width="202" height="151">
+</a>
+
+***
+
+After running the memtest for several hours without any problems I consider this expansion card now working as it should.
+
+<a href="images/RA5-512k_pic35.jpg">
+<img src="images/RA5-512k_pic35.jpg" width="202" height="151">
+</a>
+
+***
+
+The final result once again:
+
+<a href="images/RA5-512k_pic36.jpg">
+<img src="images/RA5-512k_pic36.jpg" width="404" height="302">
+</a>
