@@ -37,6 +37,8 @@ This is how the end result looks like after populating this board:
 
 ***
 TODO: Insert BOM here
+
+JP1 is for enabling/disabling the EXRAM line.
 ***
 
 This is how the original battery damaged/corroded board looked like. The NiCd battery had leaked and the Cadmium has eaten a large chunk of the copper. I desoldered all the components to reveal all the traces for reverse engineering to take place.
