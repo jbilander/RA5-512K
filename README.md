@@ -29,7 +29,7 @@ Sending off gerbers to the Aisler boardhouse and received three good looking boa
 <img src="images/RA5-512k_pic3.jpg" width="202" height="151">
 </a>
 
-This is how the end result looks like after popualting this board:
+This is how the end result looks like after populating this board:
 
 <a href="images/RA5-512k_pic4.jpg">
 <img src="images/RA5-512k_pic4.jpg" width="202" height="151">
@@ -39,7 +39,7 @@ This is how the end result looks like after popualting this board:
 TODO: Insert BOM here
 ***
 
-This is how the original battery damaged/corroded board looked like. The NiCd battery had leaked and the Cadmium has eaten a large chunk of the copper. I desolder all the components to reveal all the traces for reverse engineering to take place.
+This is how the original battery damaged/corroded board looked like. The NiCd battery had leaked and the Cadmium has eaten a large chunk of the copper. I desoldered all the components to reveal all the traces for reverse engineering to take place.
 
 <a href="images/RA5-512k_pic5.jpg">
 <img src="images/RA5-512k_pic5.jpg" width="202" height="151">
@@ -65,3 +65,26 @@ This is how the original battery damaged/corroded board looked like. The NiCd ba
 <a href="images/RA5-512k_pic12.jpg">
 <img src="images/RA5-512k_pic12.jpg" width="202" height="151">
 </a>
+
+***
+
+Choosing a suitable battery holder:
+
+Many different coin cell battery holders can be used for this pcb as long as they have 20 mm pin pitch. Do the soldering of the battery holder last or at least after you have populated R4 (with a resistor or a diod) as it might be in the way for the battery holder to be flush against the pcb. You may have to leave some room in between. Some battery holders have plastic standoffs/legs built into the design. See pictures below:
+
+<a href="images/RA5-512k_pic13.jpg">
+<img src="images/RA5-512k_pic13.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic14.jpg">
+<img src="images/RA5-512k_pic14.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic15.jpg">
+<img src="images/RA5-512k_pic15.jpg" width="202" height="151">
+</a>
+<a href="images/RA5-512k_pic16.jpg">
+<img src="images/RA5-512k_pic16.jpg" width="202" height="151">
+</a>
+
+***
+
+When using a non-rechargeable lithium battery it is important to stop the re-charging current to flow to the battery. This can be done by using a diod at R4 with the anode facing the positive terminal, see BOM for details of what to use here.
