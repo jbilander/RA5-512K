@@ -169,7 +169,7 @@ Time to try this one in a real Amiga 500 now, this A500 motherboard is a Rev.6A 
 
 ***
 
-Now let's try with the OKI M6242B RTC. First without adding a crystal to Y1 :) As expected the clock doesn't tick.
+Now let's try with the OKI M6242B RTC. First without adding a clock crystal to Y1 :) As expected the clock doesn't tick.
 
 <a href="images/RA5-512k_pic29.jpg">
 <img src="images/RA5-512k_pic29.jpg" width="202" height="151">
@@ -178,7 +178,7 @@ Now let's try with the OKI M6242B RTC. First without adding a crystal to Y1 :) A
 <img src="images/RA5-512k_pic30.jpg" width="202" height="151">
 </a>
 
-So, let's solder on a crystal and try again. Now it ticks along...
+So, let's solder on a clock crystal and try again. Now it ticks along...
 
 <a href="images/RA5-512k_pic31.jpg">
 <img src="images/RA5-512k_pic31.jpg" width="202" height="151">
